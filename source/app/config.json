@@ -1,0 +1,65 @@
+{
+  "routes": [
+    {
+      "state": "issues-graphs",
+      "config": {
+        "template": "<graphs></graphs>",
+        "url": "{dummyParam:[/]?}"
+      }
+    }
+  ],
+  "html5Mode": false,
+  "apiOptions": {
+    "apiDomain": "https://api.github.com"
+  },
+  "charts": {
+    "colors": [
+      "#5b2c6f",
+      "#7d3c98",
+      "#bb8fce",
+      "#0e6655",
+      "#138d75",
+      "#73c6b6",
+      "#784212",
+      "#ca6f1e",
+      "#f0b27a",
+      "#4d5656",
+      "#95a5a6",
+      "#bfc9ca",
+      "#641e16",
+      "#a93226",
+      "#d98880",
+      "#1b4f72",
+      "#2e86c1",
+      "#85c1e9",
+      "#088da5",
+      "#0b7b47",
+      "#7b0b3f",
+      "#7478fc",
+      "#fcf874",
+      "#64504b",
+      "#4b5f64",
+      "#2a6cb2",
+      "#284d38",
+      "#d0034f",
+      "#496528",
+      "#7c585b",
+      "#905c2e",
+      "#223dd2",
+      "#5ee3db",
+      "#db5fb7",
+      "#5705f3",
+      "#d64f3d",
+      "#17f08e",
+      "#9c95f8",
+      "#21ec1b",
+      "#b7cff3",
+      "#00332e",
+      "#37a949",
+      "#f1aace",
+      "#e82ff1",
+      "#5e0755",
+      "#7f4997"
+      ]
+  }
+}

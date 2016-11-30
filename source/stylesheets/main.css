@@ -1,0 +1,48 @@
+.content{
+    margin: 30px auto 0;
+    width: 900px;
+    padding: 50px;
+	line-height: 1.5;
+    background-color: rgba(207, 207, 207, 0.44);
+    height: 100%;
+	
+}
+
+.description{
+	margin-bottom: 30px;
+}
+
+.button-wrapper{
+    width: 100%;
+    position: relative;
+}
+
+.button{
+    padding: 6px;
+    color: #444;
+    cursor: pointer;
+    background-color: #73c6b6;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+	opacity: 0.6;
+}
+
+.button:nth-of-type(2){
+	right: 63px;
+}
+.button.active{
+	opacity: 1;
+}
+.chart{
+    display:inline-block;
+	vertical-align: middle;
+}
+
+.chart:first-of-type{
+	width: 650px;
+}
+.chart:nth-of-type(2){
+	width: 240px;
+}

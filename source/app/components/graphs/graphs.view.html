@@ -1,0 +1,31 @@
+<div class="content">
+    <div class="button-wrapper">
+        <div class="button" ng-class="{active: !vm.onlyOpen}" ng-click="vm.setIssuesStatus(false)">
+            All
+        </div>
+		<div class="button" ng-class="{active: vm.onlyOpen}" ng-click="vm.setIssuesStatus(true)">
+            Open
+        </div>
+    </div>
+    <h1>Ruby on Rails errors tracker</h1>
+    <div class="description">
+        Below you can see two charts with the same information about
+        <b ng-if="vm.onlyOpen" style="">open</b>
+        <b ng-if="!vm.onlyOpen">all</b>
+        <a href="https://github.com/rails/rails/issues">issues in Ruby on Rails project</a>
+        for the <b>last month</b>.
+    </div>
+	<div class='charts-wrapper'>
+		<div class="chart">
+			<canvas id="base" class="chart-horizontal-bar"
+					chart-data="vm.graphData"
+					chart-labels="vm.labels"
+					chart-options="vm.options"></canvas>
+		</div>
+		<div class="chart">
+			<canvas id="pie" class="chart-pie"
+					chart-data="vm.graphData"
+					chart-labels="vm.labels"></canvas>
+		</div>
+	</div>
+</div>
